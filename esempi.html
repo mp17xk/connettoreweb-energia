@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esempi pratici — Normativa Energetica Torino via IA</title>
+<meta name="description" content="Esempi di domande da fare in chat sulla normativa energetica edilizia di Torino: articoli specifici, temi, confronti tra norma comunale, regionale e nazionale.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%232456a6%27/%3E%3Ctext x=%2716%27 y=%2723%27 text-anchor=%27middle%27 font-family=%27Georgia,serif%27 font-size=%2720%27 font-weight=%27bold%27 fill=%27white%27%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">Normativa Energetica Torino via IA
+      <small>progetto indipendente &middot; non ufficiale &middot; gratuito</small>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="come-collegarti.html">Come collegarti</a>
+      <a href="esempi.html" class="active">Esempi pratici</a>
+      <a href="fonti.html">Fonti coperte</a>
+      <a href="faq.html">FAQ</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="note-legali.html">Note legali</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <h1>Esempi pratici</h1>
+  <p class="lead">
+    Una volta collegato il servizio (vedi <a href="come-collegarti.html">come collegarti</a>),
+    puoi scrivere domande in linguaggio naturale, proprio come le faresti a un collega che ha
+    la norma sotto mano. L'assistente cerca nella raccolta, apre gli articoli pertinenti e
+    risponde citandoli.
+  </p>
+
+  <h2>Domanda su un articolo preciso</h2>
+  <p>Quando conosci già il riferimento e vuoi leggerne il testo e i richiami.</p>
+
+  <div class="prompt-card">
+    <p>"Cosa dice l'Art. 5 dell'Allegato Energetico di Torino sulla predisposizione all'allaccio
+      al teleriscaldamento? Riportami il testo."</p>
+    <button class="copy-btn" onclick="copyText(this, 'Cosa dice l\'Art. 5 dell\'Allegato Energetico di Torino sulla predisposizione all\'allaccio al teleriscaldamento? Riportami il testo.')">Copia domanda</button>
+  </div>
+
+  <div class="prompt-card">
+    <p>"Apri l'Art. 8 dell'Allegato Energetico-Ambientale del Comune di Torino e dimmi quali
+      altre norme richiama."</p>
+    <button class="copy-btn" onclick="copyText(this, 'Apri l\'Art. 8 dell\'Allegato Energetico-Ambientale del Comune di Torino e dimmi quali altre norme richiama.')">Copia domanda</button>
+  </div>
+
+  <h2>Domanda su un tema</h2>
+  <p>Quando hai un argomento ma non sai in quale norma cercare.</p>
+
+  <div class="prompt-card">
+    <p>"Quali obblighi di installazione di fonti rinnovabili valgono per una nuova costruzione
+      residenziale a Torino? Indicami norma comunale, regionale e nazionale."</p>
+    <button class="copy-btn" onclick="copyText(this, 'Quali obblighi di installazione di fonti rinnovabili valgono per una nuova costruzione residenziale a Torino? Indicami norma comunale, regionale e nazionale.')">Copia domanda</button>
+  </div>
+
+  <div class="prompt-card">
+    <p>"Devo sostituire i serramenti di un appartamento a Torino: quali limiti di trasmittanza
+      devo rispettare e da quale norma derivano?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Devo sostituire i serramenti di un appartamento a Torino: quali limiti di trasmittanza devo rispettare e da quale norma derivano?')">Copia domanda</button>
+  </div>
+
+  <div class="prompt-card">
+    <p>"Se ritinteggio la facciata di un condominio esistente a Torino, scatta l'obbligo di
+      isolamento termico delle pareti perimetrali? In quali casi è escluso?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Se ritinteggio la facciata di un condominio esistente a Torino, scatta l\'obbligo di isolamento termico delle pareti perimetrali? In quali casi è escluso?')">Copia domanda</button>
+  </div>
+
+  <h2>Impianti, controlli e documentazione</h2>
+
+  <div class="prompt-card">
+    <p>"Quali documenti energetici vanno depositati al Comune di Torino con la pratica edilizia
+      e in che momento?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Quali documenti energetici vanno depositati al Comune di Torino con la pratica edilizia e in che momento?')">Copia domanda</button>
+  </div>
+
+  <div class="prompt-card">
+    <p>"Sostituzione della caldaia in un edificio esistente: quali requisiti di rendimento e di
+      scarico fumi prevede la norma comunale e cosa aggiunge quella regionale?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Sostituzione della caldaia in un edificio esistente: quali requisiti di rendimento e di scarico fumi prevede la norma comunale e cosa aggiunge quella regionale?')">Copia domanda</button>
+  </div>
+
+  <div class="prompt-card">
+    <p>"Cosa si intende per ristrutturazione importante di secondo livello e quali prescrizioni
+      comporta?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Cosa si intende per ristrutturazione importante di secondo livello e quali prescrizioni comporta?')">Copia domanda</button>
+  </div>
+
+  <h2>Non sai da dove iniziare?</h2>
+  <div class="prompt-card">
+    <p>"Fammi una panoramica di cosa contiene la raccolta di normativa energetica di Torino:
+      quali fonti e quali argomenti copre?"</p>
+    <button class="copy-btn" onclick="copyText(this, 'Fammi una panoramica di cosa contiene la raccolta di normativa energetica di Torino: quali fonti e quali argomenti copre?')">Copia domanda</button>
+  </div>
+
+  <div class="tip">
+    <strong>Suggerimento:</strong> se l'assistente risponde "a memoria" senza consultare la
+    raccolta, aggiungi alla domanda <em>"usa il connettore Normativa Energetica"</em> e
+    verifica che il connettore sia attivo nella chat. Una buona risposta cita sempre
+    l'articolo e il documento di provenienza (es. "Art. 5, Allegato Energetico-Ambientale
+    Torino"): se non lo fa, chiedi esplicitamente <em>"riportami il testo dell'articolo"</em>.
+  </div>
+
+  <div class="banner warn">
+    <strong>Ricorda</strong>
+    La raccolta copre solo le fonti elencate in <a href="fonti.html">Fonti coperte</a> ed è
+    uno strumento indicativo, non ufficiale. Le risposte sono generate da un assistente AI:
+    verifica sempre il testo citato sulla norma in vigore e, per il caso concreto, con
+    l'Ufficio Tecnico competente.
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="disclaimer">
+      Progetto personale, sperimentale e gratuito, senza alcun legame con il Comune di Torino,
+      la Regione Piemonte o altra Pubblica Amministrazione. Nessun valore ufficiale.
+      Leggi le <a href="note-legali.html">note legali complete</a>.
+    </div>
+    <p>&copy; 2026 — Progetto indipendente. Contatto: <a href="mailto:ing.palombomarco@gmail.com">ing.palombomarco@gmail.com</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
